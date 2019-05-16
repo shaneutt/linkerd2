@@ -83,6 +83,7 @@ var (
 		`MountVolume.SetUp failed for volume .* : couldn't propagate object cache: timed out waiting for the condition`,
 		`Readiness probe failed: HTTP probe failed with statuscode: 50(2|3)`,
 		`(Liveness|Readiness) probe failed: Get http://.*: dial tcp .*: connect: connection refused`,
+		`Failed to update endpoint .*: Operation cannot be fulfilled on endpoints ".*": the object has been modified; please apply your changes to the latest version and try again`,
 	}, "|"))
 
 	injectionCases = []struct {
