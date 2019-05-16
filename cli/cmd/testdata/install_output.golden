@@ -526,7 +526,7 @@ spec:
         - 4190,4191
         - --outbound-ports-to-ignore
         - "443"
-        image: gcr.io/linkerd-io/proxy-init:stable-2.3.0
+        image: gcr.io/linkerd-io/proxy-init:v1.0.0
         imagePullPolicy: IfNotPresent
         name: linkerd-init
         resources:
@@ -742,7 +742,7 @@ spec:
         - 4190,4191
         - --outbound-ports-to-ignore
         - "443"
-        image: gcr.io/linkerd-io/proxy-init:stable-2.3.0
+        image: gcr.io/linkerd-io/proxy-init:v1.0.0
         imagePullPolicy: IfNotPresent
         name: linkerd-init
         resources:
@@ -909,7 +909,7 @@ spec:
         - 4190,4191
         - --outbound-ports-to-ignore
         - "443"
-        image: gcr.io/linkerd-io/proxy-init:stable-2.3.0
+        image: gcr.io/linkerd-io/proxy-init:v1.0.0
         imagePullPolicy: IfNotPresent
         name: linkerd-init
         resources:
@@ -1166,7 +1166,7 @@ spec:
         - 4190,4191
         - --outbound-ports-to-ignore
         - "443"
-        image: gcr.io/linkerd-io/proxy-init:stable-2.3.0
+        image: gcr.io/linkerd-io/proxy-init:v1.0.0
         imagePullPolicy: IfNotPresent
         name: linkerd-init
         resources:
@@ -1386,7 +1386,7 @@ spec:
         - 4190,4191
         - --outbound-ports-to-ignore
         - "443"
-        image: gcr.io/linkerd-io/proxy-init:stable-2.3.0
+        image: gcr.io/linkerd-io/proxy-init:v1.0.0
         imagePullPolicy: IfNotPresent
         name: linkerd-init
         resources:
@@ -1541,7 +1541,7 @@ spec:
         - 4190,4191
         - --outbound-ports-to-ignore
         - "443"
-        image: gcr.io/linkerd-io/proxy-init:stable-2.3.0
+        image: gcr.io/linkerd-io/proxy-init:v1.0.0
         imagePullPolicy: IfNotPresent
         name: linkerd-init
         resources:
@@ -1720,7 +1720,7 @@ spec:
         - 4190,4191
         - --outbound-ports-to-ignore
         - "443"
-        image: gcr.io/linkerd-io/proxy-init:stable-2.3.0
+        image: gcr.io/linkerd-io/proxy-init:v1.0.0
         imagePullPolicy: IfNotPresent
         name: linkerd-init
         resources:
